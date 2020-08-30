@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	
+	margin:auto;
+	}
+#main-header{
+	font-family:Georgia;
+	font-size:20px;
+	color:#000;
+	text-transform: uppercase;
+	border:3px grey solid;
+
+}
+#main-header img{
+	height:150px;
+	float:left;
+	padding:10px;
+	padding-right:120px;
+	box-sizing: border-box;
+	
+
+}
+#main-header h1{
+	padding:30px 0;
+
+}
+.clr::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.heading{
+text-align:center;
+font-family:helvetica;
+background-color:turquoise;
+padding:10px 0;
+}
+
+.center1{
+	width:50%;
+	margin:auto;
+}
+.description{
+	display:block;
+}
+.centertext{
+	width:300px;
+	height:100px;
+}
+#levels,#comp,#des{
+	padding:10px 0;
+}
+input{
+padding:10px 20px;
+}
+input:hover{
+background-color:lightgrey;
+}
+
+
+#levels {
+color: black;
+padding-right:20px;
+}
+#des {
+color:black;
+padding-right:20px;
+}
+textarea{
+width:40%;
+height:20%;
+}
+#comp{
+color: black;
+padding-right:20px;
+}
+input{
+margin-top:4rem;
+padding:10px;
+
+
+}
+.center1{
+text-align:left;
+padding:20px;
+width:300px;
+}
+.description{
+	text-align:left;
+}
+form{
+	text-align: center;
+}
+.file{
+	margin-top:0;
+}
+.file-width{
+	width:300px;
+}
+.file-width p{
+	padding-bottom:10px;
+}
+.file-width input{
+	padding-left:0;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/lodgestyle.css">
+<title>Lodge Complaint</title>
+</head>
+<body>
+<header id="main-header">
+		<div class="clr">
+		<img src="images/logo.png">
+		<h1>Student Grievance Support Portal</h1>
+	</div>
+	</header>
+<h1 class="heading">Lodge Complaint</h1>
+<form class="" action="/home.html" method="POST">
+
+
+<div class="center1">
+<div id="levels">
+  <label> Level of Complaint</label>
+
+
+				<select class="center" name="levels">
+					<option value="department">Departmental Level</option>
+
+					<option value="college">College Level</option>
+
+					<option value="university"> University Level </option>
+				</select>
+			</div>
+                <div id="comp">
+				<label>Nature of Complaint</label>
+				<select class="center" name="typesOfComplaints">
+				<option value="mess"> Mess </option>
+				<option value="accomodation"> Accomodation </option>
+				<option value="faculty"> Faculty</option>
+				<option value="course"> Course </option>
+				<option value="finance"> Finance </option>
+			</select>
+			</div>
+			<div id="des">
+			<label class="description"> Description </label>
+			<textarea class="centertext" name="description" placeholder="Describe your problem in detail." ></textarea>
+			</div>
+</form>
+<form>
+  <input type='file' required />
+  <button type="submit" >Submit</button>
+
+</form>
+
+
+</body>
+</html>
